@@ -3,15 +3,21 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { ImProfile } from "react-icons/im";
 import { Link } from "react-scroll";
+import Logo from "../assets/logo.png";
+import Resume from "../assets/Rahul_frontend_CV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
     setNav(!nav);
   };
+
+  const emailAddress = `https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTRsbZKBGqqwwSTkrKPkQtPdDzpHBPHnkKDlfxpCSrHmPBNFvZmLbWfwhSTKmtJhXKFsnM`;
   return (
     <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
-      <div></div>
+      <div>
+        <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
+      </div>
       {/* manu */}
       <ul className=" hidden md:flex">
         <li>
@@ -84,7 +90,8 @@ const Navbar = () => {
           <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://www.linkedin.com/in/rahulna1996/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -92,7 +99,8 @@ const Navbar = () => {
           <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://github.com/Rsingh1996"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -100,7 +108,8 @@ const Navbar = () => {
           <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#788db7]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href={emailAddress}
+              target="_blank"
             >
               Mail <HiOutlineMail size={30} />
             </a>
@@ -108,7 +117,9 @@ const Navbar = () => {
           <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#455f38]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href={Resume}
+              target="_blank"
+              download="Rahul_frontend_CV.pdf"
             >
               Resume <ImProfile size={30} />
             </a>

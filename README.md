@@ -1,6 +1,7 @@
 # Portfolio Website
 
-![Alt text](image.png)
+<img width="944" alt="image" src="https://github.com/Rsingh1996/my-portfolio-website/assets/81622488/3868f9b3-4011-4b32-a712-850cc02b3bd7">
+
 
 ## Introduction
 

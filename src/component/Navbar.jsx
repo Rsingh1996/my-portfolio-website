@@ -15,10 +15,12 @@ const Navbar = () => {
   const emailAddress = `https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTRsbZKBGqqwwSTkrKPkQtPdDzpHBPHnkKDlfxpCSrHmPBNFvZmLbWfwhSTKmtJhXKFsnM`;
   return (
     <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
-      <div className="text-4xl font-bold animate-pulse my-name text-yellow-600">
-        <Link to="home" smooth={true} duration={500}>
-          Rahul Singh
-        </Link>
+      <div>
+        <img
+          src={Logo}
+          alt="Logo image"
+          style={{ width: "80px", mixBlendMode: "color-dodge" }}
+        />
       </div>
       {/* manu */}
       <ul className=" hidden md:flex">
@@ -87,7 +89,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* social icons*/}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex    fixed flex-col top-[35%] left-0">
         <ul>
           <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a

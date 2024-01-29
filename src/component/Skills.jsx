@@ -51,6 +51,7 @@ const Skills = () => {
               alt="PYTHON icon"
               width="80px"
               height="80px"
+              style={{ mixBlendMode: "screen" }}
             />
             <p className="my-4">Python</p>
           </div>

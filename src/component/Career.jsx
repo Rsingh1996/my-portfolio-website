@@ -13,9 +13,9 @@ const Career = () => {
           <div></div>
         </div>
 
-        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 gap-8 px-4 ">
+        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
-            <p className=" sm:text-right text-2xl ">JULY 2021 - CURRENT</p>
+            <p className=" sm:text-right text-2xl ">Jul 2021 – Current</p>
           </div>
           <div className=" w-[0px] border-r-4"></div>
           <div className="flex flex-col md:col-span-5 items-start gap-3">
@@ -44,7 +44,7 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 gap-8 px-4 ">
+        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
             <p className=" sm:text-right text-2xl ">Aug 2019 – Jul 2021</p>
           </div>
@@ -66,7 +66,7 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 gap-8 px-4 ">
+        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
             <p className=" sm:text-right text-2xl ">Oct 2018 – Jul 2019</p>
           </div>
@@ -84,9 +84,9 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 gap-8 px-4 ">
+        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
-            <p className=" sm:text-right text-2xl ">Oct 2018 – Jul 2019</p>
+            <p className=" sm:text-right text-2xl ">Aug 2017 – Aug 2018</p>
           </div>
           <div className=" w-[0px] border-r-4"></div>
           <div className="flex flex-col md:col-span-5 items-start gap-3">

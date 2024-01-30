@@ -94,43 +94,47 @@ const Navbar = () => {
         </li>
       </ul>
       {/* social icons*/}
-      <div className="hidden lg:flex    fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] right-0">
         <ul>
-          <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className=" flex justify-between items-center w-[160px] h-[60px] mr-[-100px] hover:ml-[-90px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://www.linkedin.com/in/rahulna1996/"
               target="_blank"
             >
-              Linkedin <FaLinkedin size={30} />
+              <FaLinkedin size={30} />
+              Linkedin
             </a>
           </li>
-          <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className=" flex justify-between items-center w-[160px] h-[60px] mr-[-100px] hover:ml-[-90px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://github.com/Rsingh1996"
               target="_blank"
             >
-              Github <FaGithub size={30} />
+              <FaGithub size={30} />
+              Github
             </a>
           </li>
-          <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#788db7]">
+          <li className=" flex justify-between items-center w-[160px] h-[60px] mr-[-100px] hover:ml-[-90px] duration-300 bg-[#788db7]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href={emailAddress}
               target="_blank"
             >
-              Mail <HiOutlineMail size={30} />
+              <HiOutlineMail size={30} />
+              Mail
             </a>
           </li>
-          <li className=" flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-300 bg-[#455f38]">
+          <li className=" flex justify-between items-center w-[160px] h-[60px] mr-[-100px] hover:ml-[-90px] duration-300 bg-[#455f38]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href={Resume}
               target="_blank"
               download="Rahul_frontend_CV.pdf"
             >
-              Resume <ImProfile size={30} />
+              <ImProfile size={30} />
+              Resume
             </a>
           </li>
         </ul>

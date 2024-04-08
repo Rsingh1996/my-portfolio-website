@@ -15,16 +15,17 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div>
             <p className=" sm:text-right text-4xl font-bold">
-              Hi, I am Rahul, nice to meet you. Please take a look arroud.
+              Hi, I am Rahul, nice to meet you. Please take a look aroud.
             </p>
           </div>
           <div>
             <p>
-              As a passionate React Developer, I thrive on crafting intuitive
-              and responsive web experiences. With a strong foundation in React
-              fundamentals and a commitment to staying abreast of industry
-              trends, I bring creativity and efficiency to every project,
-              ensuring impactful and user-centric solutions."
+              As a passionate React Developer, I really enjoy making websites
+              that are easy to use and work well on any device. I know a lot
+              about React and always try to keep up with the latest in web
+              development. I like to be creative and work efficiently on
+              projects, aiming to make things that really help and appeal to
+              users.
             </p>
           </div>
         </div>

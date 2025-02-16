@@ -15,7 +15,41 @@ const Career = () => {
 
         <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
-            <p className=" sm:text-right text-2xl ">Jul 2021 – Current</p>
+            <p className=" sm:text-right text-2xl ">Jul 2021 – Jun 2024</p>
+          </div>
+          <div className=" w-[0px] border-r-4"></div>
+          <div className="flex flex-col md:col-span-5 items-start gap-3">
+            <p className=" sm:text-left text-2xl font-bold">
+              Software Engineer III @Elsevier
+            </p>
+            <ul>
+              <p>
+                - Developed and maintained a full-stack application using
+                NodeJS, ReactJS, andTypeScript.
+              </p>
+              <p>
+                - Actively participated in daily standups and Agile Retro &
+                Sprint planing, effectively collaborated with cross-functional
+                team to manage user stories and backlog item using Jira.
+              </p>
+              <p>
+                - Conducted research and developed spike stories to evaluate and
+                implement innovative solutions, while documenting findings to
+                enhance knowledge sharing and best practices across the
+                organization.
+              </p>
+              <p>
+                - Designed and developed reusable UIcomponent library,
+                establishing organization-wide standards for UI consistency ande
+                fficiency.
+              </p>
+            </ul>
+          </div>
+        </div>
+
+        <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
+          <div className="md:col-span-5">
+            <p className=" sm:text-right text-2xl ">Jul 2021 – Jun 2024</p>
           </div>
           <div className=" w-[0px] border-r-4"></div>
           <div className="flex flex-col md:col-span-5 items-start gap-3">

@@ -12,12 +12,14 @@ const Home = () => {
           Rahul Singh
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a React Developer
+          I'm a Software Engineer
         </h2>
         <p1 className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a React Developer skilled in creating dynamic and scalable web
-          applications, proficient in React fundamentals, component-based
-          architecture, state management, and responsive design.
+          I am a Software Engineer with expertise in both frontend and backend
+          development, using TypeScript for enhanced type safety. Skilled in
+          creating dynamic web applications, I am proficient in React, state
+          management, and responsive design on the frontend, as well as backend
+          technologies like Node.js and database management.
         </p1>
         <div>
           <Link to="work" smooth={true} duration={500}>

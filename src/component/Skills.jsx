@@ -5,8 +5,11 @@ import JAVASCRIPT from "../assets/javascript.png";
 import REACTIMG from "../assets/react.png";
 import GITHUB from "../assets/github.png";
 import PYTHON from "../assets/python.png";
-import TAILWIND from "../assets/tailwind.png";
+import TYPESCRIPT from "../assets/typescript.png";
 import NODE from "../assets/node.png";
+import AWS from "../assets/aws.png";
+import MARIADB from "../assets/mariadb.jpg";
+import JIRA from "../assets/jira.png";
 
 const Skills = () => {
   return (
@@ -60,8 +63,24 @@ const Skills = () => {
             <p className="my-4">NODE</p>
           </div>
           <div className="shadow-md shadow-[#040c26] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={TAILWIND} alt="TAILWIND icon" />
-            <p className="my-4">TAILWIND</p>
+            <img
+              className="w-20 mx-auto"
+              src={TYPESCRIPT}
+              alt="TYPESCRIPT icon"
+            />
+            <p className="my-4">TYPESCRIPT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c26] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={AWS} alt="AWS icon" />
+            <p className="my-4">AWS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c26] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={MARIADB} alt="MARIADB icon" />
+            <p className="my-4">MARIADB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c26] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={JIRA} alt="JIRA icon" />
+            <p className="my-4">JIRA</p>
           </div>
         </div>
       </div>

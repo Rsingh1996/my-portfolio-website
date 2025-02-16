@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { ImProfile } from "react-icons/im";
 import { Link } from "react-scroll";
 import Logo from "../assets/logo.png";
-import Resume from "../assets/Rahul_frontend_CV.pdf";
+import Resume from "../assets/Rahul_CV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -137,7 +137,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300 "
               href={Resume}
               target="_blank"
-              download="Rahul_frontend_CV.pdf"
+              download="Rahul_CV.pdf"
             >
               Resume
               <ImProfile size={30} />

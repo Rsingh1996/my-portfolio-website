@@ -20,12 +20,13 @@ const About = () => {
           </div>
           <div>
             <p>
-              As a passionate React Developer, I really enjoy making websites
-              that are easy to use and work well on any device. I know a lot
-              about React and always try to keep up with the latest in web
-              development. I like to be creative and work efficiently on
-              projects, aiming to make things that really help and appeal to
-              users.
+              As a Full-Stack Software Engineer, I focus on building scalable,
+              user-friendly applications with both frontend and backend
+              expertise. Proficient in React, TypeScript, and responsive design,
+              I ensure seamless user experiences across all devices. I also work
+              with backend technologies like Node.js and databases, always
+              staying up-to-date with the latest development trends to deliver
+              efficient, high-quality solutions.
             </p>
           </div>
         </div>

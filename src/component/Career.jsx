@@ -15,7 +15,7 @@ const Career = () => {
 
         <div className="max-w-[1000px] w-full pb-6 grid sm:grid-flow-col md:grid-cols-11 sm:gap-6 md:gap-8 px-4 ">
           <div className="md:col-span-5">
-            <p className=" sm:text-right text-2xl ">Jul 2021 – Jun 2024</p>
+            <p className=" sm:text-right text-2xl ">Jun 2024 – Current</p>
           </div>
           <div className=" w-[0px] border-r-4"></div>
           <div className="flex flex-col md:col-span-5 items-start gap-3">
